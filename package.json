@@ -1,0 +1,30 @@
+{
+  "name": "superid",
+  "version": "1.0.0",
+  "description": "SuperID SDK For Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "export DEBUG='superid:*' && mocha -t 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperID/superid-nodejs-sdk.git"
+  },
+  "keywords": [
+    "superid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperID/superid-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/SuperID/superid-nodejs-sdk#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lei-utils": "^2.1.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.1"
+  }
+}
